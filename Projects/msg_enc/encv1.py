@@ -1,4 +1,22 @@
+"""
+Program: Message Encoder v0.1
+Author: Brock Kjelden
+Website: https://bkinfosecurity.com
+Date: June 18, 2023
 
+Description:
+This program is built to encrypt and encode messages to be sent publicly, this program
+is by no means a secure way to send sensitive information, just a fun way to send messages
+that others can't immediately decipher.
+
+Disclaimer:
+This program is provided for educational purposes only. You are allowed to use it as a learning
+resource, experiment with it, and modify it for personal use. However, you are strictly prohibited
+from using this program to steal or plagiarize someone else's work and claim it as your own.
+The author and contributors of this program hold no responsibility for any misuse or unethical
+use of this code.
+
+"""
 def xor(msg, key = 'default', encode = False, decode = False):
 	if encode:
 		encrypted = ""
